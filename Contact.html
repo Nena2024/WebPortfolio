@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Star Studio</title>
+<link rel="icon" type="image/x-icon" href="../WebDesign/images/favicon.ico">
+<link rel="stylesheet" href="../WebDesign/css/style.css" >
+<script>function loaded (el) { el.classList.add('loaded') }</script>
+</head>
+<body onload="loaded(document.body)">
+<header>
+	<h1></h1>
+	<nav>
+		<ul>
+			<li><a href="Contact.html"><p>Contact</p></a></li>
+			<li><a href="ClientAlbums.html"><p>Client Albums</p></a></li>
+			<li><a href="About.html"><p>About</p></a></li>
+			<li><a href="Services.html"><p>Services</p></a></li>
+			<li class="dropdown"><a href="Portfolio.html" class="dropbtn"><p>Portfolio</p></a>
+				<div class="dropdown-content">
+					<a href="Portrait.html">Portrait</a>
+					<a href="Family.html">Family</a>
+					<a href="Commercial.html">Commercial</a>
+				</div>
+			</li>
+			<li class="left_header">
+				<div><a href="index.html">Star Studio</a></div>
+			</li>
+		</ul>
+			
+	</nav>
+</header>
+<div id="form_contents">
+	<div id="main">
+		<article>
+			<h1 id="reserve">お問い合わせ</h1>
+			
+			<form action="#">
+				<div id="caption">
+					<p><strong>セッションや価格につ<br>いてのお問い合わせ<br>は、フォームにご記入ください。</strong></p>
+					<p>〒123-4567</p>
+					<p>東京都新宿区西新宿0-0-0</p>
+					<p>info@mysite.co.jp</p>
+					<p>Tel: 12-3456-7890</p>
+				</div>
+				<p><label id="family">姓 </label>
+				<label id="contact_name">名 </label></p>
+				<p><input type="text" name="family" class="contact_family">
+				 <input type="text" name="contact_name" class="contact_name"></p>
+				<p><lable id="mail_address">メールアドレス</label>
+			    <label id="subject">件名 </label></p>
+				<p><input type="text" name="mail_address" class="contact_mail">
+				<input type="text" name="subject" class="contact_subject"></p>	
+				<p><label id="c_message">メッセージ<br>
+				<textarea name="message" id="c_message" class="contact_message"></textarea></label></p>
+				<p><input type="submit" class="contact_submit" value="送信"></p>
+			</form>
+		</article>
+		
+	</div>
+</div>
+<div id="sub">
+	<aside>
+		<ul>
+			<li><a href="https://www.facebook.com/TRNBook/videos/"><img src="../WebDesign/images/FB.jpg" ></a></li>
+			<li><a href="https://www.instagram.com/mitsuha.nena/"><img src="../WebDesign/images/Insta.jpg" ></a></li>
+		</ul>
+	</aside>
+</div>
+<footer>
+	<p><small>Copyright 2023 Star Studio All rights reserved.</small></p>
+</footer>
+</body>
+</html>
